@@ -16,3 +16,4 @@ if n > 2:
         dp[i] = max(dp[i], dp[i-1])
 
 print(max(dp))
+
